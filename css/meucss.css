@@ -1,0 +1,33 @@
+.error {
+    color: rgb(168, 12, 12);
+}
+
+.container {
+    width: 180%;
+}
+
+.caixa {
+    background-color: rgba(218, 216, 216, 0.603);
+    border-radius: 2%;
+    height: 100%;
+    width: 40%;
+}
+
+h1 {
+    padding-top: 6%;
+}
+
+.formulario {
+    padding-left: 6%;
+}
+
+label {
+    font-size: 17px;
+    font-family: Verdana;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium';
+}

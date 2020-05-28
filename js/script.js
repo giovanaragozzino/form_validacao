@@ -10,15 +10,18 @@ $("#formulario").validate({
         },
         
         telefone : {
-            required: true
+            required: true,
+            minlength: 11
         },
         
         cpf : {
-            required: true
+            required: true,
+            minlength: 11
         },
         
         dataNasc : {
-            required: true
+            required: true,
+            minlength: 8
         },
         
         endereço : {
@@ -34,7 +37,8 @@ $("#formulario").validate({
         },
         
         cep : {
-            required: true
+            required: true,
+            minlength: 8
         },
         
         checkbox : {
@@ -60,17 +64,17 @@ $("#formulario").validate({
 
         telefone : {
             required: "Por favor, preencha o campo do telefone",
-            telefone: "Informe um número de telefone válido"
+            minlength: "Informe um número de telefone válido"
         },
 
         cpf : {
             required: "Por favor, preencha o campo CPF",
-            cpf: "Informe um CPF válido"
+            minlength: "Informe um CPF válido"
         },
 
         dataNasc : {
             required: "Por favor, preencha sua data de nascimento",
-            dataNasc: "Informe uma data válida"
+            minlength: "Informe uma data válida"
         },
 
         endereço : {
@@ -90,7 +94,7 @@ $("#formulario").validate({
 
         cep : {
             required: "Por favor, preencha seu CEP",
-            cep: "Informe um CEP válido"
+            minlength: "Informe um CEP válido"
         },
 
         checkbox : {
